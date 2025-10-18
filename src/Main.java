@@ -34,7 +34,7 @@ class FullTimeEmployee extends Employee {
     private final double monthlySalary;
 
     public FullTimeEmployee(String name, int id, double monthlySalary){
-        super(name, id); // beacuse we want to run parent class constructor we use super
+        super(name, id);
 
         this.monthlySalary = monthlySalary;
     }
